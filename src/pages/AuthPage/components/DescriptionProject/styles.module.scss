@@ -1,0 +1,34 @@
+.descriptionSection {
+  width: 60%;
+  background: var(--secondary-color);
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.descriptionContainer {
+  max-width: 400px;
+
+  h2 {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+
+  ul {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+    li {
+      list-style: disc;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
