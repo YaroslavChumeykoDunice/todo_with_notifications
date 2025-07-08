@@ -1,0 +1,71 @@
+.taskItem {
+  background: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 1px solid var(--border-color);
+
+  .taskHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--primary-color);
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 90%;
+    }
+
+    .status {
+      cursor: pointer;
+    }
+  }
+
+  .description {
+    width: 80%;
+    word-break: break-word;
+  }
+
+  .taskFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .btnGroup {
+      display: flex;
+      gap: 0.5rem;
+      margin-left: auto;
+    }
+
+    .update {
+      background: var(--primary-color);
+
+      &:hover {
+        background: var(--primary-color-hover);
+      }
+    }
+
+    .delete {
+      background: var(--error-color);
+
+      &:hover {
+        background: var(--error-color-hover);
+      }
+    }
+
+    button {
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 4px;
+      cursor: pointer;
+      color: var(--white);
+    }
+  }
+}

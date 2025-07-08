@@ -1,0 +1,42 @@
+.tasksPage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0 20px 20px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    color: var(--primary-color);
+  }
+
+  button {
+    background-color: var(--success-color);
+    border: none;
+    color: var(--white);
+    padding: 10px 20px 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+  }
+
+  button:hover {
+    background-color: var(--success-color-hover);
+  }
+
+  .addTask {
+    margin-right: 20px;
+  }
+
+  .plus {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}
+

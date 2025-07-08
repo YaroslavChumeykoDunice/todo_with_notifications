@@ -1,0 +1,8 @@
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  height: calc(100vh - 102.5px);
+  padding-right: 20px;
+}

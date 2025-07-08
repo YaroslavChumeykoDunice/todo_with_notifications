@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary-color: #4f46e5;
+  --secondary-color: #f5f5f5;
+  --accent-color: #4338ca;
+  --white: #fff;
+  --error-color: #f44336;
+  --success-color: #4caf50;
+  --success-color-hover: #43a047;
+  --primary-color-hover: #4338ca;
+  --error-color-hover: #d32f2f;
+  --border-color: #ddd
+}
